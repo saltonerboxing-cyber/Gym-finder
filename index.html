@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Perfect Staten Island Gym</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find Your Perfect Staten Island Gym</h1>
+      <!-- Survey form will be injected here by script.js -->
+      <div id="survey"></div>
+      <!-- Results will be rendered below after the user submits the form -->
+      <div id="results"></div>
+    </div>
+    <!-- Load the gyms data first. This script attaches the gyms array to
+         window.gyms so it can be accessed by subsequent scripts. -->
+    <script src="gyms-data.js"></script>
+    <!-- Main application script. It reads window.gyms and builds the survey -->
+    <script src="script.js"></script>
+  </body>
+</html>
