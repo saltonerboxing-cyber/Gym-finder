@@ -1,0 +1,16 @@
+{
+  "name": "newsletter-agent",
+  "version": "1.0.0",
+  "description": "An AI agent that helps draft a monthly client newsletter",
+  "type": "module",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.134.0"
+  }
+}
